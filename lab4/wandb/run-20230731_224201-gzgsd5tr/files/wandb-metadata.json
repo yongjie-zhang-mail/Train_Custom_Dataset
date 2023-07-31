@@ -1,0 +1,60 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-07-31T14:42:02.764357",
+    "startedAt": "2023-07-31T14:42:01.057655",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "pose",
+        "train",
+        "data=Triangle_215.yaml",
+        "model=yolov8s-pose.pt",
+        "pretrained=True",
+        "project=Triangle_215",
+        "name=s_pretrain",
+        "epochs=50",
+        "batch=16",
+        "device=0"
+    ],
+    "state": "running",
+    "program": "-m __main__",
+    "git": {
+        "remote": "https://github.com/yongjie-zhang-mail/Train_Custom_Dataset.git",
+        "commit": "22f6b396aa6d40aedf537809bfe5a3da6a787c93"
+    },
+    "email": "yongjie_zhang_mail@qq.com",
+    "root": "D:/source/ai2/Train_Custom_Dataset",
+    "host": "LegionY9000P",
+    "username": "yongj",
+    "executable": "C:\\Users\\yongj\\.conda\\envs\\yongjie\\python.exe",
+    "cpu_count": 14,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 2500.0,
+        "min": 0.0,
+        "max": 2500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2500.0,
+            "min": 0.0,
+            "max": 2500.0
+        }
+    ],
+    "disk": {
+        "total": 1862.2304649353027,
+        "used": 1535.7890167236328
+    },
+    "gpu": "NVIDIA GeForce RTX 3070 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3070 Laptop GPU",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 31.79735565185547
+    }
+}
